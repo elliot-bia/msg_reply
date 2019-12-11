@@ -1,5 +1,5 @@
 # 00 前言
-借助 Mocha-L/WechatPCAPI 的微信API项目  
+借助 [Mocha-L/WechatPCAPI](https://github.com/Mocha-L/WechatPCAPI) 的微信API项目  
 
 # 01 实现功能:  
 - 自动接受的个人信息发送到指定微信  
