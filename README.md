@@ -9,6 +9,6 @@
 
 # 02 截图
 
-![pic1](https://github.com/elliot-bia/msg_reply/blob/master/pic3.jpg)
-![pic2](https://github.com/elliot-bia/msg_reply/blob/master/pic4.jpg)
+![pic1](https://github.com/elliot-bia/msg_reply/blob/master/pic10.jpg)
+![pic2](https://github.com/elliot-bia/msg_reply/blob/master/pic11.jpg)
 
