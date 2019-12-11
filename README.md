@@ -1,2 +1,13 @@
-# msg_reply
-extra usage of Mocha-L/WechatPCAPI
+# 00 前言
+借助 Mocha-L/WechatPCAPI 的微信API项目  
+
+# 01 实现功能:  
+- 自动接受的个人信息发送到指定微信  
+- 自动接受指定群信息发送到指定微信
+- 设置admin微信回复 (默认控制台微信=微信接受微信)
+- 通过回复序列号(空格)信息进行回复
+
+# 02 截图
+
+[图片]
+[图片]
