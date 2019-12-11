@@ -9,4 +9,5 @@
 
 # 02 截图
 
-![pic1](http://github.com/elliot-bia/msg_reply)
+![pic1](http://github.com/elliot-bia/msg_reply/pic1.jpg)
+![pic1](http://github.com/elliot-bia/msg_reply/pic2.jpg)
