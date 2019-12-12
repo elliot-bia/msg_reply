@@ -1,3 +1,12 @@
+更新
+---
+1. 优化功能
+2. 过滤图片, 防止发送信息过杂
+
+
+
+
+
 # 00 前言
 借助 [Mocha-L/WechatPCAPI](https://github.com/Mocha-L/WechatPCAPI) 的微信API项目  
 
