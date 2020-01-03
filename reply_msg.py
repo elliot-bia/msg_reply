@@ -8,7 +8,7 @@
 # #    github: https://github.com/elliot-bia
 # #    Date: 2019-12-09 14:59:42
 # #    LastEditors: zzy
-# #    LastEditTime: 2019-12-12 16:26:07
+# #    LastEditTime: 2020-01-03 10:03:11
 # #    ---------------------------------
 # #    Description: 对Mocha-L的WechatPCAPI进行调用,  实现功能: 自动接受的个人信息, 指定群信息发送到指定admin微信, 并且通过回复序列号(空格)信息进行回复
 
@@ -93,7 +93,7 @@ def thread_handle_message(wx_inst):
                     # 0是收到的消息 1是发出的 对于1不要再回复了 不然会无限循环回复
                     
                         
-                    if (from_wxid not in single_block_list) and ('wxid_' in from_wxid):
+                    if (from_wxid not in single_block_list) and (from_wxid in dict_remark_name.keys()):
                         # 判断微信id, 黑名单, 并且屏蔽公众号
                         if data_type[0] == '1':
                         # 只接受文字
@@ -154,9 +154,9 @@ def thread_handle_message(wx_inst):
                             wx_inst.send_text(admin_wx, '微信收到群 {} 消息成员{} \n一张图片/表情   \n信息ID {}'.format(from_chatroom_nickname, 
                                 dict_remark_name[from_wxid], ID_num))
                             
-                            # 弄一个字典, 保存信息ID, 通过回复ID+信息进行回复给好友
-                            dict_msg_ID[ID_num] = from_chatroom_wxid
-                            ID_num = ID_num + 1
+                        # 弄一个字典, 保存信息ID, 通过回复ID+信息进行回复给好友
+                        dict_msg_ID[ID_num] = from_chatroom_wxid
+                        ID_num = ID_num + 1
         except:
             pass
 
